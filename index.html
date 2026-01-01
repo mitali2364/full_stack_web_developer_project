@@ -2,365 +2,423 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Petalify</title>
+    <title> GROZO </title>
 
-    <!--font awesome cdn link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+/>
+
+    <!-- font awesome file link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 
     <!-- custom css file link -->
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
 <!-- header section starts -->
 
-<header>
-
-    <input type="checkbox" name="" id="toggler">
-    <label for="toggler" class="fas fa-bars"></label>
+<header class="header">
     
-    <a href="#" class="logo">Petalify<span>.</span></a>
+    <a href="#" class="logo"> <i class ="fas fa-shopping-basket"></i> Grozo </a>
 
     <nav class="navbar">
-        <a href="#Home">Home</a>
-        <a href="#About">About</a>
-        <a href="#Products">Products</a>
-        <a href="#Review">Review</a>
-        <a href="#Contact">Contact</a>
+        <a href="#Home"> Home </a>
+        <a href="#Features"> Features </a>
+        <a href="#Products"> Products </a>
+        <a href="#Categories"> Categories </a>
+        <a href="#Review"> Review </a>
+        <a href="#Blogs"> Blogs </a>
     </nav>
 
     <div class="icons">
-        <a href="#" class="fas fa-heart"></a>
-        <a href="#" class="fas fa-shopping-cart"></a>
-        <a href="#" class="fas fa-user"></a>
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
     </div>
 
-</header>
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
 
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images/cart-img-1.jpg" alt="">
+            <div class="content">
+                <h3> Watermelon </h3>
+                <span class="price"> $4.99/- </span>
+                <span class="quantity"> qty : 1 </span>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images/cart-img-2.jpg" alt="">
+            <div class="content">
+                <h3> Onion </h3>
+                <span class="price"> $4.99/- </span>
+                <span class="quantity"> qty : 1 </span>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images/cart-img-3.jpg" alt="">
+            <div class="content">
+                <h3> Paneer </h3>
+                <span class="price"> $4.99/- </span>
+                <span class="quantity"> qty : 1 </span>
+            </div>
+        </div>
+
+        <div class="total"> Total : $19.69/- </div>
+        <a href="#" class="btn"> Checkout </a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3> Login Now </h3>
+        <input type="email" placeholder="Your email" class="box">
+        <input type="password" placeholder="Your password" class="box">
+        <p> Forget your password <a href="#"> click here </a></p>
+        <p> Don't have an account <a href="#"> create now </a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
 <!-- header section ends -->
 
 <!-- home section starts -->
- <section class="Home" id="Home">
+
+<section class="home" id="home">
 
     <div class="content">
-        <h3>Fresh Flowers</h3>
-        <span> Natural & Beautiful Flowers </span>
-        <p>Discover the beauty of nature with our premium selection of fresh flowers. Where Flowers Speak Feelings</p>
-        <a href="#" class="btn">Order now</a>
+        <h3> Fresh and <span> Organic </span> Products for you </h3>
+        <p> Grozo is your everyday partner for healthy living, offering carefully selected vegetables, fruits, and dairy products you can trust. We believe good food builds happy families, and we make sure freshness reaches your home every time.</p>
+        <a href="#" class="btn"> Shop now </a>
     </div>
 
 </section>
 <!-- home section ends -->
 
-<!-- about section starts -->
+<!-- features section starts -->
 
-<section class="About" id="About">
-    <h1 class="heading"> <span> About </span> us </h1>
+<section class="features" id="features">
 
-    <div class="row">
-        <div class="video-container">
-            <video src="images/about video.mp4" loop autoplay muted></video>
-            <h3> Best Flowers Sellers </h3>
+    <h1 class="heading"> our <span> features </span> </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="images/feature-img-1.jpeg" alt="">
+            <h3> Fresh Organic </h3>
+            <p> Farm-fresh, 100% organic products delivered straight to you </p>
+            <a href="#" class="btn"> Read me </a>
         </div>
 
-        <div class="content">
-            <h3> Why Choose Petalify </h3>
-            <p> At Petalify, we believe flowers are more than just gifts—they are emotions wrapped in petals. Every bouquet is thoughtfully handcrafted using fresh, handpicked blooms that reflect love, joy, gratitude, and heartfelt connections. From life’s grand celebrations to quiet, meaningful moments, our elegant floral arrangements are designed to speak what words sometimes cannot. With a seamless and user-friendly app experience, ordering the perfect bouquet is effortless and enjoyable. We combine artistic designs, premium quality, and timely delivery to ensure that every surprise arrives exactly when it should. At Petalify, we don’t just deliver flowers—we help you create memories, strengthen bonds, and express feelings in their most beautiful form. </p>
-            <p> We deliver fresh, beautifully crafted bouquets that turn moments into memories.With seamless ordering, timely delivery, and elegant designs, Petalify helps you express feelings without words and it is easy to use and offers fast delivery for all occasions like birthdays, anniversaries, and celebrations. </p>
-            <a href="#" class="btn"> Learn More </a>
+        <div class="box">
+            <img src="images/feature-img-2.jpeg" alt="">
+            <h3> Free Delivery </h3>
+            <p> Enjoy fast and free delivery right to your doorstep </p>
+            <a href="#" class="btn"> Read me </a>
+        </div>
+
+        <div class="box">
+            <img src="images/feature-img-3.jpeg" alt="">
+            <h3> Easy Payments </h3>
+            <p> Simple, secure, and hassle-free payment options for everyone </p>
+            <a href="#" class="btn"> Read me </a>
         </div>
     </div>
+
 </section>
 
-<!-- about section ends -->
-
-<!-- icon section starts -->
-
-<sectiom class="icons-container">
-
-    <div class="icons">
-        <img src="images/icon-1.png" alt="">
-        <div class="info">
-            <h3> Free Delivery </h3>
-            <span> On all orders </span>
-        </div>
-    </div>
-
-    <div class="icons">
-        <img src="images/icon-2.png" alt="">
-        <div class="info">
-            <h3> 10 days returns </h3>
-            <span> Moneyback guarantee </span>
-        </div>
-    </div>
-
-    <div class="icons">
-        <img src="images/icon-3.png" alt="">
-        <div class="info">
-            <h3> Offer and Gifts </h3>
-            <span> On all orders </span>
-        </div>
-    </div>
-
-    <div class="icons">
-        <img src="images/icon-4.png" alt="">
-        <div class="info">
-            <h3> Secure Payments </h3>
-            <span> Protected by paypal </span>
-        </div>
-    </div>
-</sectiom>
-<!-- icon section ends -->
+<!-- features section ends -->
 
 <!-- products section starts -->
 
-<section class="Products" id="Products">
-    
-    <h1 class="heading"> latest <span> Products </span> </h1>
+<section class="products" id="products">
 
-    <div class="box-container">
+    <h1 class="heading"> our <span> products </span> </h1>
+
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            
+            <div class="swiper-slide box">
+                <img src="images/product-1.jpg" alt="">
+                <h3> Orange </h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn"> add to cart </a>
+            </div>
+
+            <div class=" swiper-slide box">
+                <img src="images/product-2.jpg" alt="">
+                <h3> Onion </h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn"> add to cart </a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/product-3.jpg" alt="">
+                <h3> Apple </h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="btn"> add to cart </a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/product-4.jpg" alt="">
+                <h3> Cabbage </h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="btn"> add to cart </a>
+            </div>
         
-        <div class="box">
-            <span class="discount">-10% OFF</span>
-            <div class="image">
-                <img src="images/img 1.png" alt="">
-                <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">Add to Cart</a>
-                    <a href="#" class="fas fa-share"></a>
-                </div>
-            </div>
-            <div class="content">
-                <h3> Flower Bouquet </h3>
-                <div class="price"> INR 550 <span> INR 850 </span>.</div>
-            </div>
         </div>
+    </div>
 
-        <div class="box">
-            <span class="discount">-20% OFF</span>
-            <div class="image">
-                <img src="images/img 2.png" alt="">
-                <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">Add to Cart</a>
-                    <a href="#" class="fas fa-share"></a>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            
+            <div class="swiper-slide box">
+                <img src="images/product-5.jpg" alt="">
+                <h3> Carrot </h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
                 </div>
+                <a href="#" class="btn"> add to cart </a>
             </div>
-            <div class="content">
-                <h3> Flower Bouquet </h3>
-                <div class="price"> INR 600 <span> INR 700</span>.</div>
-            </div>
-        </div>
 
-        <div class="box">
-            <span class="discount">-12% OFF</span>
-            <div class="image">
-                <img src="images/img 3.png" alt="">
-                <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">Add to Cart</a>
-                    <a href="#" class="fas fa-share"></a>
+            <div class=" swiper-slide box">
+                <img src="images/product-6.jpg" alt="">
+                <h3> Lemon </h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
                 </div>
+                <a href="#" class="btn"> add to cart </a>
             </div>
-            <div class="content">
-                <h3> Flower Bouquet </h3>
-                <div class="price"> INR 750 <span> INR 900 </span>.</div>
-            </div>
-        </div>
 
-        <div class="box">
-            <span class="discount">14% OFF</span>
-            <div class="image">
-                <img src="images/img 4.png" alt="">
-                <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">Add to Cart</a>
-                    <a href="#" class="fas fa-share"></a>
+            <div class="swiper-slide box">
+                <img src="images/product-7.jpg" alt="">
+                <h3> Potato </h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
                 </div>
+                <a href="#" class="btn"> add to cart </a>
             </div>
-            <div class="content">
-                <h3> Flower Bouquet </h3>
-                <div class="price"> INR 850 <span> INR 1000 </span>.</div>
-            </div>
-        </div>
 
-        <div class="box">
-            <span class="discount">16% OFF</span>
-            <div class="image">
-                <img src="images/img 5.png" alt="">
-                <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">Add to Cart</a>
-                    <a href="#" class="fas fa-share"></a>
+            <div class="swiper-slide box">
+                <img src="images/product-8.jpg" alt="">
+                <h3> Avocado </h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
                 </div>
+                <a href="#" class="btn"> add to cart </a>
             </div>
-            <div class="content">
-                <h3> Flower Bouquet </h3>
-                <div class="price"> INR 900 <span> INR 1050 </span>.</div>
-            </div>
-        </div>
-
-        <div class="box">
-            <span class="discount">18% OFF</span>
-            <div class="image">
-                <img src="images/img 6.png" alt="">
-                <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">Add to Cart</a>
-                    <a href="#" class="fas fa-share"></a>
-                </div>
-            </div>
-            <div class="content">
-                <h3> Flower Bouquet </h3>
-                <div class="price"> INR 500 <span> INR 700 </span>.</div>
-            </div>
-        </div>
-
-        <div class="box">
-            <span class="discount">15% OFF</span>
-            <div class="image">
-                <img src="images/img 7.png" alt="">
-                <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">Add to Cart</a>
-                    <a href="#" class="fas fa-share"></a>
-                </div>
-            </div>
-            <div class="content">
-                <h3> Flower Bouquet </h3>
-                <div class="price"> INR 1000 <span> INR 1100 </span>.</div>
-            </div>
-        </div>
-
-        <div class="box">
-            <span class="discount">17% OFF</span>
-            <div class="image">
-                <img src="images/img 8.png" alt="">
-                <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">Add to Cart</a>
-                    <a href="#" class="fas fa-share"></a>
-                </div>
-            </div>
-            <div class="content">
-                <h3> Flower Bouquet </h3>
-                <div class="price"> INR 550 <span> INR 700 </span>.</div>
-            </div>
-        </div>
-
-        <div class="box">
-            <span class="discount">25% OFF</span>
-            <div class="image">
-                <img src="images/img 9.png" alt="">
-                <div class="icons">
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">Add to Cart</a>
-                    <a href="#" class="fas fa-share"></a>
-                </div>
-            </div>
-            <div class="content">
-                <h3> Flower Bouquet </h3>
-                <div class="price"> INR 800 <span> INR 1000 </span>.</div>
-            </div>
+        
         </div>
     </div>
 
 </section>
-
 <!-- products section ends -->
+
+<!-- categories section starts -->
+
+<section class="categories" id="categories">
+
+    <h1 class="heading"> product <span> categories </span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/cat-1.jpg" alt="">
+            <h3> vegetables </h3>
+            <p> upto 45% off </p>
+            <a href="#" class="btn"> shop now </a>
+        </div>
+
+        <div class="box">
+            <img src="images/cat-2.jpg" alt="">
+            <h3> fresh fruits </h3>
+            <p> upto 45% off </p>
+            <a href="#" class="btn"> shop now </a>
+        </div>
+
+        <div class="box">
+            <img src="images/cat-3.jpg" alt="">
+            <h3> dairy products </h3>
+            <p> upto 45% off </p>
+            <a href="#" class="btn"> shop now </a>
+        </div>
+
+        <div class="box">
+            <img src="images/cat-4.jpg" alt="">
+            <h3> fresh bread </h3>
+            <p> upto 45% off </p>
+            <a href="#" class="btn"> shop now </a>
+        </div>
+    </div>
+</section>
+<!-- categories section ends -->
 
 <!-- review section starts -->
 
-<section class="Review" id="Review">
-    <h1 class="heading"> Customer's <span> Review </span></h1>
+<section class="review" id="review">
 
-    <div class="box-container">
-        
-        <div class="box">
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-            <p> I ordered a mixed pastel bouquet for my mom’s birthday, and I couldn’t be happier with how it turned out! The flowers were fresh, beautifully arranged, and lasted much longer than I expected. The soft pinks and whites looked even better in person than in the photo. Delivery was on time, and the packaging was sturdy with no damage. Highly recommend if you want a bouquet that feels elegant and thoughtful! </p>
-            <div class="user">
+    <h1 class="heading"> customer's <span> review </span></h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
                 <img src="images/pic-1.png" alt="">
-                <div class="user-info">
-                    <h3> Divya </h3>
-                    <span> Happy Customer </span>
+                <p> I love this grocery app! The vegetables and fruits are always fresh, and I get everything delivered right on time. The quality of dairy products is excellent too — especially the milk and paneer. The app is easy to use and has great deals every week! </p>
+                <h3> Samruddhi </h3>
+                <div class="stars">
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
                 </div>
             </div>
-            <span class="fas fa-quote-right"></span>
-        </div>
 
-        <div class="box">
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-            <p> I ordered the classic red rose bouquet and was blown away by the quality. Every rose was perfectly shaped, with rich color and long stems that looked very luxurious. It felt like a bouquet you’d expect from a high-end florist, but at a great price. Would definitely order again! </p>
-            <div class="user">
+            <div class="swiper-slide box">
                 <img src="images/pic-2.png" alt="">
-                <div class="user-info">
-                    <h3> John </h3>
-                    <span> Happy Customer </span>
+                <p> Great experience overall 😊. The selection of fresh produce like carrots, apples, and bananas is impressive. Dairy items like butter and yogurt are fresh and well-packaged. Delivery was quick, but I wish the app had more variety in organic products. </p>
+                <h3> John </h3>
+                <div class="stars">
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
                 </div>
             </div>
-            <span class="fas fa-quote-right"></span>
-        </div>
 
-        <div class="box">
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-            <p> I was a bit nervous ordering flowers online, but this bouquet exceeded my expectations. The blooms were healthy, fragrant, and arranged with real attention to detail. Delivery was smooth and kept updated. Really made a special occasion even better! </p>
-            <div class="user">
+            <div class="swiper-slide box">
                 <img src="images/pic-3.png" alt="">
-                <div class="user-info">
-                    <h3> Minal </h3>
-                    <span> Happy Customer </span>
+                <p> The app is convenient and has good pricing on everyday items. I ordered spinach, oranges, and cheese — most were fresh, but a few fruits were slightly overripe. Customer support was responsive though, which I appreciated. </p>
+                <h3> Paridhi </h3>
+                <div class="stars">
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
                 </div>
             </div>
-            <span class="fas fa-quote-right"></span>
-        </div>
-    </div>
-</section>
 
+            <div class="swiper-slide box">
+                <img src="images/pic-4.png" alt="">
+                <p> Fantastic grocery shopping experience! 🛒 The veggies are crisp, the fruits are juicy and flavorful, and the dairy options are premium quality. Booking delivery was smooth and the delivery person was very polite. Will definitely use this app again! </p>
+                <h3> Minal </h3>
+                <div class="stars">
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                </div>
+            </div>
+        
+        </div>
+    
+    </div>
+
+</section>
 <!-- review section ends -->
 
-<!-- contact section starts -->
+<!-- blogs section starts -->
+ <section class="blogs" id="blogs">
 
-<section class="Contact" id="Contact">
+    <h1 class="heading"> our <span> blogs </span></h1>
 
-    <h1 class="heading"> <span> Contact </span> Us </h1>
+    <div class="box-container">
 
-    <div class="row">
+        <div class="box">
+            <img src="images/blog-1.jpeg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021</a>
+                </div>
+                <h3> Fresh and Organic vegetables and fruits </h3>
+                <p> A convenient grocery app delivering fresh vegetables, seasonal fruits, and daily dairy essentials straight to your doorstep. </p>
+                <a href="#" class="btn"> read more </a>
+            </div>
+        </div>
 
-        <form actions="">
-            <input type="Text" placeholder="Name" class="box">
-            <input type="Email" placeholder="Email" class="box">
-            <input type="Number" placeholder="Number" class="box">
-            <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
-            <input type="Submit" value="Send message" class="btn">
-        </form>
-        <div class="image">
-            <img src="images/cont img.jpeg" alt="">
+        <div class="box">
+            <img src="images/blog-2.jpeg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021</a>
+                </div>
+                <h3> Fresh and Organic vegetables and fruits </h3>
+                <p> Your one-stop grocery app for farm-fresh vegetables, handpicked fruits, and quality dairy products at affordable prices. </p>
+                <a href="#" class="btn"> read more </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/blog-3.jpeg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021</a>
+                </div>
+                <h3> Fresh and Organic vegetables and fruits </h3>
+                <p> An easy-to-use grocery app that brings fresh vegetables, juicy fruits, and trusted dairy items to your home in minutes. </p>
+                <a href="#" class="btn"> read more </a>
+            </div>
         </div>
     </div>
-</section>
-
-<!-- contact section ends -->
+ </section>
+<!-- blogs section ends -->
 
 <!-- footer section starts -->
 
@@ -369,43 +427,70 @@
     <div class="box-container">
 
         <div class="box">
-            <h3> Quick Links </h3>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Products</a>
-            <a href="#">Review</a>
-            <a href="#">Contact</a>
+            <h3> grozo <i class="fas fa-shopping-basket"></i></h3>
+            <p> </p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
         </div>
 
         <div class="box">
-            <h3> Extra Links </h3>
-            <a href="#">My Account</a>
-            <a href="#">My Order</a>
-            <a href="#">My Favorites</a>
+            <h3> contact info </h3>
+            <a href="#" class="links"> <i class="fas fa-phone"> </i> +123-456-7890 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"> </i> +111-222-3333 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"> </i> grozo@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"> </i> mumbai, india - 400104 </a>
         </div>
 
         <div class="box">
-            <h3> Locations </h3>
-            <a href="#">India</a>
-            <a href="#">Australia</a>
-            <a href="#">America</a>
-            <a href="#">Canada</a>
-            <a href="#">Japan</a>
+            <h3> quick links </h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"> </i> home </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"> </i> features </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"> </i> products </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"> </i> categories </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"> </i> review </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"> </i> blogs </a>
         </div>
 
         <div class="box">
-            <h3> Contact Info </h3>
-            <a href="#">+123-456-7890</a>
-            <a href="#">petalify23@gmail.com</a>
-            <a href="#">Mumbai, India - 400104</a>
-            <img src="images/Payment.png" alt="">
+            <h3> newsletter </h3>
+            <p> subscribe for latest updates </p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="images/Payment.png" class="payment-img" alt="">
         </div>
     </div>
 
-    <div class="credit"> created by <span> Petalify Team </span> |  All rights reserved</div>
+    <div class="credit"> created by <span> mr.web designer </span> | all rights reserved </div>
 </section>
+<!-- footer section ends -->
 
-<!-- footer section ends  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+<script src="script.js"></script>
     
 </body>
 </html>

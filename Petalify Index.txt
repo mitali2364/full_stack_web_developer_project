@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petalify</title>
+
+    <!--font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- header section starts -->
+
+<header>
+
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+    
+    <a href="#" class="logo">Petalify<span>.</span></a>
+
+    <nav class="navbar">
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Products">Products</a>
+        <a href="#Review">Review</a>
+        <a href="#Contact">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts -->
+ <section class="Home" id="Home">
+
+    <div class="content">
+        <h3>Fresh Flowers</h3>
+        <span> Natural & Beautiful Flowers </span>
+        <p>Discover the beauty of nature with our premium selection of fresh flowers. Where Flowers Speak Feelings</p>
+        <a href="#" class="btn">Order now</a>
+    </div>
+
+</section>
+<!-- home section ends -->
+
+<!-- about section starts -->
+
+<section class="About" id="About">
+    <h1 class="heading"> <span> About </span> us </h1>
+
+    <div class="row">
+        <div class="video-container">
+            <video src="images/about video.mp4" loop autoplay muted></video>
+            <h3> Best Flowers Sellers </h3>
+        </div>
+
+        <div class="content">
+            <h3> Why Choose Petalify </h3>
+            <p> At Petalify, we believe flowers are more than just gifts—they are emotions wrapped in petals. Every bouquet is thoughtfully handcrafted using fresh, handpicked blooms that reflect love, joy, gratitude, and heartfelt connections. From life’s grand celebrations to quiet, meaningful moments, our elegant floral arrangements are designed to speak what words sometimes cannot. With a seamless and user-friendly app experience, ordering the perfect bouquet is effortless and enjoyable. We combine artistic designs, premium quality, and timely delivery to ensure that every surprise arrives exactly when it should. At Petalify, we don’t just deliver flowers—we help you create memories, strengthen bonds, and express feelings in their most beautiful form. </p>
+            <p> We deliver fresh, beautifully crafted bouquets that turn moments into memories.With seamless ordering, timely delivery, and elegant designs, Petalify helps you express feelings without words and it is easy to use and offers fast delivery for all occasions like birthdays, anniversaries, and celebrations. </p>
+            <a href="#" class="btn"> Learn More </a>
+        </div>
+    </div>
+</section>
+
+<!-- about section ends -->
+
+<!-- icon section starts -->
+
+<sectiom class="icons-container">
+
+    <div class="icons">
+        <img src="images/icon-1.png" alt="">
+        <div class="info">
+            <h3> Free Delivery </h3>
+            <span> On all orders </span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="images/icon-2.png" alt="">
+        <div class="info">
+            <h3> 10 days returns </h3>
+            <span> Moneyback guarantee </span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="images/icon-3.png" alt="">
+        <div class="info">
+            <h3> Offer and Gifts </h3>
+            <span> On all orders </span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="images/icon-4.png" alt="">
+        <div class="info">
+            <h3> Secure Payments </h3>
+            <span> Protected by paypal </span>
+        </div>
+    </div>
+</sectiom>
+<!-- icon section ends -->
+
+<!-- products section starts -->
+
+<section class="Products" id="Products">
+    
+    <h1 class="heading"> latest <span> Products </span> </h1>
+
+    <div class="box-container">
+        
+        <div class="box">
+            <span class="discount">-10% OFF</span>
+            <div class="image">
+                <img src="images/img 1.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3> Flower Bouquet </h3>
+                <div class="price"> INR 550 <span> INR 850 </span>.</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-20% OFF</span>
+            <div class="image">
+                <img src="images/img 2.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3> Flower Bouquet </h3>
+                <div class="price"> INR 600 <span> INR 700</span>.</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-12% OFF</span>
+            <div class="image">
+                <img src="images/img 3.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3> Flower Bouquet </h3>
+                <div class="price"> INR 750 <span> INR 900 </span>.</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">14% OFF</span>
+            <div class="image">
+                <img src="images/img 4.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3> Flower Bouquet </h3>
+                <div class="price"> INR 850 <span> INR 1000 </span>.</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">16% OFF</span>
+            <div class="image">
+                <img src="images/img 5.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3> Flower Bouquet </h3>
+                <div class="price"> INR 900 <span> INR 1050 </span>.</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">18% OFF</span>
+            <div class="image">
+                <img src="images/img 6.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3> Flower Bouquet </h3>
+                <div class="price"> INR 500 <span> INR 700 </span>.</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">15% OFF</span>
+            <div class="image">
+                <img src="images/img 7.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3> Flower Bouquet </h3>
+                <div class="price"> INR 1000 <span> INR 1100 </span>.</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">17% OFF</span>
+            <div class="image">
+                <img src="images/img 8.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3> Flower Bouquet </h3>
+                <div class="price"> INR 550 <span> INR 700 </span>.</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">25% OFF</span>
+            <div class="image">
+                <img src="images/img 9.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3> Flower Bouquet </h3>
+                <div class="price"> INR 800 <span> INR 1000 </span>.</div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- products section ends -->
+
+<!-- review section starts -->
+
+<section class="Review" id="Review">
+    <h1 class="heading"> Customer's <span> Review </span></h1>
+
+    <div class="box-container">
+        
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p> I ordered a mixed pastel bouquet for my mom’s birthday, and I couldn’t be happier with how it turned out! The flowers were fresh, beautifully arranged, and lasted much longer than I expected. The soft pinks and whites looked even better in person than in the photo. Delivery was on time, and the packaging was sturdy with no damage. Highly recommend if you want a bouquet that feels elegant and thoughtful! </p>
+            <div class="user">
+                <img src="images/pic-1.png" alt="">
+                <div class="user-info">
+                    <h3> Divya </h3>
+                    <span> Happy Customer </span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p> I ordered the classic red rose bouquet and was blown away by the quality. Every rose was perfectly shaped, with rich color and long stems that looked very luxurious. It felt like a bouquet you’d expect from a high-end florist, but at a great price. Would definitely order again! </p>
+            <div class="user">
+                <img src="images/pic-2.png" alt="">
+                <div class="user-info">
+                    <h3> John </h3>
+                    <span> Happy Customer </span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p> I was a bit nervous ordering flowers online, but this bouquet exceeded my expectations. The blooms were healthy, fragrant, and arranged with real attention to detail. Delivery was smooth and kept updated. Really made a special occasion even better! </p>
+            <div class="user">
+                <img src="images/pic-3.png" alt="">
+                <div class="user-info">
+                    <h3> Minal </h3>
+                    <span> Happy Customer </span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+    </div>
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts -->
+
+<section class="Contact" id="Contact">
+
+    <h1 class="heading"> <span> Contact </span> Us </h1>
+
+    <div class="row">
+
+        <form actions="">
+            <input type="Text" placeholder="Name" class="box">
+            <input type="Email" placeholder="Email" class="box">
+            <input type="Number" placeholder="Number" class="box">
+            <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+            <input type="Submit" value="Send message" class="btn">
+        </form>
+        <div class="image">
+            <img src="images/cont img.jpeg" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> Quick Links </h3>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Products</a>
+            <a href="#">Review</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="box">
+            <h3> Extra Links </h3>
+            <a href="#">My Account</a>
+            <a href="#">My Order</a>
+            <a href="#">My Favorites</a>
+        </div>
+
+        <div class="box">
+            <h3> Locations </h3>
+            <a href="#">India</a>
+            <a href="#">Australia</a>
+            <a href="#">America</a>
+            <a href="#">Canada</a>
+            <a href="#">Japan</a>
+        </div>
+
+        <div class="box">
+            <h3> Contact Info </h3>
+            <a href="#">+123-456-7890</a>
+            <a href="#">petalify23@gmail.com</a>
+            <a href="#">Mumbai, India - 400104</a>
+            <img src="images/Payment.png" alt="">
+        </div>
+    </div>
+
+    <div class="credit"> created by <span> Petalify Team </span> |  All rights reserved</div>
+</section>
+
+<!-- footer section ends  -->
+    
+</body>
+</html>
